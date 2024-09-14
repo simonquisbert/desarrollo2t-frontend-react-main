@@ -5,7 +5,7 @@ const LandingPage = () => {
     return (
         <div>
             <div className="hero-section text-center p-4 bg-success text-white">
-                <h1 className="display-5 fw-bold">Modulo 7: DESARROLLO 2T FRONTEND CON REACT JS</h1>
+                <h1 className="display-5 fw-bold">Modulo 7: DESARROLLO FRONTEND CON REACTJS</h1>
             </div>
             
                 <div className="row align-items-center h-100">
@@ -23,7 +23,7 @@ const LandingPage = () => {
                         <h3>Temas Cubiertos</h3>
                         <hr size="50px" color="green" />
                         <ul className="list-unstyled">
-                            <li>Temas cubiertos</li>
+                            <li>Componentes funcionales y de clase</li>
                             <li>Uso de <strong>React hooks</strong> como <strong>useState</strong> y <strong>useEffect</strong></li>
                             <li>Creación de <strong>custom hooks</strong> como <strong>useForm</strong></li>
                             <li>Gestión de variables de estado con <strong>useState</strong></li>

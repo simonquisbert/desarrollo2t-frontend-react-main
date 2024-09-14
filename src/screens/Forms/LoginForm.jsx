@@ -66,11 +66,11 @@ const LoginForm = () => {
                     />
             <div className="container">
                 <form onSubmit={handleSubmit}>
-                    <h4 className="text-center">INGRESO</h4>
-                    <h5>USUARIO: {form.formData.username}</h5>
+                    <h4 className="text-center">Login Form</h4>
+                    <h5>Username: {form.formData.username}</h5>
                     <div className="row">
                         <div className="form-group col-md-3">
-                            <label>Usuario: </label>
+                            <label>Username: </label>
                         </div>
                         <div className="form-group col-md-9">
                             <input
@@ -85,7 +85,7 @@ const LoginForm = () => {
                     </div>
                     <div className="row">
                         <div className="form-group col-md-3">
-                            <label>E-mail: </label>
+                            <label>Email: </label>
                         </div>
                         <div className="form-group col-md-9">
                             <input
@@ -100,7 +100,7 @@ const LoginForm = () => {
                     </div>
                     <div className="row">
                         <div className="form-group col-md-3">
-                            <label>Contraseña: </label>
+                            <label>Password: </label>
                         </div>
                         <div className="form-group col-md-6">
                             <input
@@ -112,14 +112,14 @@ const LoginForm = () => {
                                 onChange={handleChange}
                             />
                             <button className="btn" type="button" onClick={showHidePassword}>
-                                <i id="show_hide_image" className={show_hide ? "bi arrow-right-circle-fill" : "bi arrow-right-circle"}></i>
+                                <i id="show_hide_image" className={show_hide ? "bi bi-eye-fill" : "bi bi-eye"}></i>
                             </button>
                         </div>
                     </div>
                     <div className="row button-container">
                         <div className="form-group col-md-12 d-flex justify-content-center">
-                            <button type="submit" className="btn btn-primary">Ingresar</button>
-                            <a className="btn btn-link" onClick={show_ModalLogout}>Salir</a>
+                            <button type="submit" className="btn btn-primary">Submit</button>
+                            <a className="btn btn-link" onClick={show_ModalLogout}>Logout</a>
                         </div>
                     </div>
                 </form>
