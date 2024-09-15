@@ -5,6 +5,7 @@ import LandingPage from "../screens/LandingPage/LandingPage";
 
 import App from "../App";
 import LoginForm from "../screens/Forms/LoginForm";
+import DictionaryPage from "../screens/Dictionary/DictionaryPage";
 
 const basename = process.env.NODE_ENV === 'production' ? '/desarrollo2t-frontend-react-main' : '/';
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: "/loginForm",
                 element: <LoginForm />
+            },
+            {
+                path: "/dictionary",
+                element: <DictionaryPage />
             }
         ],
     },

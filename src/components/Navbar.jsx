@@ -20,6 +20,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link to="/loginForm">Login Form</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/dictionary">Dictionary</Link>
+                        </li>
                     </ul>
                 </div>
                 <a className="navbar-brand" style={{ color: 'white' }}>Bienvenido {form.formData.username}: {form.formData.email}</a>
